@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import EstilosGlobales from "./components/EstilosGlobales";
+import Cabecera from "./components/Cabecera";
+import BarraLateral from "./components/BarraLateral";
+import Banner from "./components/Banner";
+
 
 //utilizando styled component
 //armamos un componente estilizado 
@@ -10,12 +14,16 @@ const FondoGradiente = styled.div`
 `
 
 function App() {
-  
+
 
   return (
     <>
       <FondoGradiente>
-        <EstilosGlobales/>
+        <EstilosGlobales />
+        <Cabecera />
+        <BarraLateral />
+
+
       </FondoGradiente>
     </>
   )

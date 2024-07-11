@@ -1,10 +1,21 @@
 # Te damos la bienvenida al curso "React: estilizando componentes y manipulando archivos estáticos"!
 
-# 01 - Creando Proyecto 
+# 02 - Componentes y fuentes iniciales 
 
 En esta lección, aprendiste cómo:
 
-- Utilizar Vite para iniciar un proyecto de React.
-- Instalar e implementar la biblioteca styled-components.
-- Crear un fondo de gradiente.
-- Normalizar CSS con estilos globales.
+Cabecera
+
+- Crea el componente y estiliza el componente del encabezado.
+- Importa el logotipo a la carpeta pública.
+- Crea la etiqueta img.
+- Crea el componente de input.
+- Importa en el encabezado.
+
+Barra lateral
+
+- Crea la estructura de la barra lateral (aside > ul > li > a).
+- Estiliza el componente que representa la lista.
+- Crea y estiliza un ítem de lista que recibe un texto y una imagen.
+- Recibe props con styled-components usando el prefijo $.
+- Alterna el estilo del ítem (activo o no activo) basado en esta prop.
