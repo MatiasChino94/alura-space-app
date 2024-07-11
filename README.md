@@ -4,6 +4,12 @@
 
 En esta lección, aprendiste cómo:
 
+- Crear y estilizar el componente del encabezado.
+- Estructurar la barra lateral.
+- Crear un ítem de lista que reciba un texto y una imagen.
+- Importar fuentes y establecerlas como predeterminadas.
+
+
 Cabecera
 
 - Crea el componente y estiliza el componente del encabezado.
