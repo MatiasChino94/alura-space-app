@@ -19,7 +19,7 @@ const ImagenesContainer = styled.section`
 
 `
 
-const Galeria = ({ fotos = [] }) => {
+const Galeria = ({ fotos = [], alSeleccionarFoto }) => {
 
     return (
         <>
@@ -30,7 +30,7 @@ const Galeria = ({ fotos = [] }) => {
                     <ImagenesContainer>
                         {
                             fotos.map(foto => {
-                                return <Imagen key={foto.id} foto={foto}/>
+                                return <Imagen alSolicitarZoom={alSeleccionarFoto} key={foto.id} foto={foto}/>
                             })
                         }
                     </ImagenesContainer>

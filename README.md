@@ -1,10 +1,10 @@
 # Te damos la bienvenida al curso "React: estilizando componentes y manipulando archivos estáticos"!
 
-# 03 - Creando Galeria 
+# 04 - Trabajando con Modales 
 
 En esta lección, aprendiste cómo:
 
-- Crear un diseño de escritorio.
-- Estructurar el código de una galería de fotos con Flexbox.
-- Trabajar con etiquetas dinámicamente.
- -Importar fotos desde un archivo estático .json.
+- Crear un modal con el elemento Dialog.
+- Trabajar con eventos de selección.
+- Posicionar elementos de forma fija y definir opacidad con rgba.
+- Crear un estado que represente el elemento seleccionado.
